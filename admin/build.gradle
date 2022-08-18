@@ -1,0 +1,13 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '7.5'
+}
+
+task prepareKotlinBuildScriptModel {
+
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+

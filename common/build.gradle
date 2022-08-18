@@ -1,0 +1,20 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '7.5'
+}
+
+task prepareKotlinBuildScriptModel {
+
+}
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
+
+dependencies {
+    // CommonApplication 미사용
+    //implementation 'org.springframework.boot:spring-boot-starter'
+    //testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
